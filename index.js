@@ -8,7 +8,7 @@ function mondayWork(defaultActivity = 'go to the office'){
 }
 
 function wrapAdjective(symbol = '*'){
-  return function(adjective) {
+  return function(adjective = 'special') {
     return `You are ${symbol}${adjective}${symbol}!`;
   }
 }
